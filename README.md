@@ -48,8 +48,11 @@ We enrich the tracked vehicles with additional visual properties:
 
 ### 5. Analysis
 Scripts in `/analysis/` combine memorability results with vehicle attributes to provide:  
-- Distribution statistics.  
-- Comparisons across vehicle colors and styles.  
+- Distribution statistics  
+- Comparisons across vehicle colors and styles  
+
+In the final dataset **`all_videos_full_object_stats.csv`** used for analysis, each row contains the following variables:  
+`video`, `object_id`, `frame`, `memo_score`, `bbox_x`, `bbox_y`, `bbox_w`, `bbox_h`, `area`, and `color`.
 
 ---
 
